@@ -1,0 +1,41 @@
+.subscription {
+    background: url(../../assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    filter: opacity(60%);
+    box-shadow: 1px 2px 2px 1px grey;
+    z-index: -1;
+}
+
+.subscription__title {
+    opacity: 1;
+    background-color: #21252956;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.tictactoe {
+    background: url(../../assets/tictactoe.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hangman {
+    background: url(../../assets/hangman.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.sudoku {
+    background: url(../../assets/sudoku.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.link {
+    text-decoration: none;
+}

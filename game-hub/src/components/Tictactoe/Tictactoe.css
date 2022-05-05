@@ -1,0 +1,17 @@
+.board {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: space-between;
+    background-color: black;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.board__box {
+    background-color: white;
+    color: blue;
+    border-radius: 20px;
+    height: 100px;
+    font-size: 50px;
+}
