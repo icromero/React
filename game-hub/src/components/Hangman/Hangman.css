@@ -1,0 +1,30 @@
+.clue {
+    width: auto;
+    max-width: 100px;
+    min-width: 15px;
+    padding: 1rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+.keyboard {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.letter {
+    font-size: 20px;
+    width: 50px;
+    height: 50PX;
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.letter:hover {
+    transform: scale(.8);
+}
+
+.history {}

@@ -1,0 +1,31 @@
+.cell {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid grey;
+    width: 200px;
+    margin: 0 auto;
+    background-color: darkgrey;
+    padding: 0;
+    border-bottom-width: none;
+}
+
+td {
+    padding: 0;
+}
+
+.bBorder {
+    border-bottom: 2px solid black;
+    z-index: 2;
+}
+
+.rBorder {
+    border-right: 2px solid black;
+}
